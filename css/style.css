@@ -1,0 +1,154 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c; /* Dark background */
+    color: #f2f2f2; /* Light text color */
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #13547a; /* Darker background for header */
+    color: #80d0c7; /* Orange text color */
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Section Styles */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff; /* Darker background for sections */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+section:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+    transform: translateY(-5px);
+}
+
+section h2 {
+    font-size: 28px;
+    color: #80d0c7; /* Orange text color */
+    margin-bottom: 15px;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ffffff;
+}
+
+section ul li strong {
+    color: #13547a; /* Orange text color */
+}
+
+/* Quiz Form Styles */
+#quizForm p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#quizForm input[type="radio"] {
+    margin-right: 10px;
+}
+
+#quizForm input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    border: 2px solid #c2b3b3;
+    border-radius: 5px;
+    background-color: #ffffff; /* Match the background */
+    color: #000000; /* Match the text color */
+    transition: border-color 0.3s ease;
+}
+
+#quizForm input[type="text"]:focus {
+    border-color: #80d0c7;
+    outline: none;
+}
+
+/* Button Styles */
+#quizForm button,
+#spinButton,
+#resetProgress {
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #80d0c7; /* Orange button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#quizForm button:hover,
+#spinButton:hover,
+#resetProgress:hover {
+    background-color: #80d0c7; /* Lighter orange on hover */
+    box-shadow: 0 4px 12px #13547a;
+}
+
+/* Quiz Result and Wheel Result */
+#quizResult, #wheelResult {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #80d0c7; /* Orange text color */
+}
+
+/* Leaderboard Styles */
+#leaderboard {
+    margin-top: 40px;
+}
+
+#leaderboard ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+#leaderboard ul li {
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    color: #686767;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#leaderboard ul li:hover {
+    background-color: #80d0c7; /* Orange background on hover */
+    transform: translateY(-3px);
+}
+
+/* Link Styles */
+a {
+    color: #80d0c7;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #80d0c7;
+    text-decoration: underline;
+}
+
